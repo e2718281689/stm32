@@ -1,0 +1,34 @@
+..\..\output\gy6500.o: ..\..\other\GY6500\GY6500.c
+..\..\output\gy6500.o: ..\..\other\.h\GY6500.h
+..\..\output\gy6500.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\gy6500.o: ..\..\Libraries\CMSIS\core_cm3.h
+..\..\output\gy6500.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\gy6500.o: ..\..\Libraries\CMSIS\system_stm32f10x.h
+..\..\output\gy6500.o: ..\..\User\stm32f10x_conf.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_adc.h
+..\..\output\gy6500.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_bkp.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_can.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_cec.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_crc.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_dac.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_dbgmcu.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_dma.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_exti.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_flash.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_fsmc.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_gpio.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_i2c.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_iwdg.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_pwr.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_rcc.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_rtc.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_sdio.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_spi.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_tim.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_usart.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\stm32f10x_wwdg.h
+..\..\output\gy6500.o: ..\..\Libraries\inc\misc.h
+..\..\output\gy6500.o: ..\..\other\.h\iic.h
+..\..\output\gy6500.o: ..\..\other\.h\delay.h
+..\..\output\gy6500.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\math.h
