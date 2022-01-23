@@ -1,4 +1,5 @@
 ..\..\output\main.o: ..\..\User\main.c
+..\..\output\main.o: ..\..\other\.h\l298n.h
 ..\..\output\main.o: ..\..\Libraries\CMSIS\stm32f10x.h
 ..\..\output\main.o: ..\..\Libraries\CMSIS\core_cm3.h
 ..\..\output\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -28,5 +29,8 @@
 ..\..\output\main.o: ..\..\Libraries\inc\stm32f10x_usart.h
 ..\..\output\main.o: ..\..\Libraries\inc\stm32f10x_wwdg.h
 ..\..\output\main.o: ..\..\Libraries\inc\misc.h
+..\..\output\main.o: ..\..\other\.h\iic.h
+..\..\output\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\..\output\main.o: ..\..\other\.h\bsp_usart.h
+..\..\output\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\main.o: ..\..\User\delay.h
-..\..\output\main.o: ..\..\other\.h\l298n.h

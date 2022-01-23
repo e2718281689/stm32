@@ -1,5 +1,4 @@
 ..\..\output\iic.o: ..\..\other\iic\iic.c
-..\..\output\iic.o: ..\..\other\.h\iic.h
 ..\..\output\iic.o: ..\..\Libraries\CMSIS\stm32f10x.h
 ..\..\output\iic.o: ..\..\Libraries\CMSIS\core_cm3.h
 ..\..\output\iic.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -29,5 +28,5 @@
 ..\..\output\iic.o: ..\..\Libraries\inc\stm32f10x_usart.h
 ..\..\output\iic.o: ..\..\Libraries\inc\stm32f10x_wwdg.h
 ..\..\output\iic.o: ..\..\Libraries\inc\misc.h
-..\..\output\iic.o: ..\..\other\.h\delay.h
-..\..\output\iic.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+..\..\output\iic.o: ..\..\other\.h\iic.h
+..\..\output\iic.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h

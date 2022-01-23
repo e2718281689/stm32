@@ -1,34 +1,19 @@
-#ifndef _iic_h_
-#define	_iic_h_
-#include "stm32f10x.h"
-#include "delay.h"
-#include  <math.h> 
+#ifndef _BSP_I2C_H
+#define _BSP_I2C_H
 
-#define bool int
-#define TRUE 1
-#define FALSE 0
-#define IIC_GPIOx GPIOB
-#define IIC_PIN_SDA GPIO_Pin_6
-#define IIC_PIN_SCL GPIO_Pin_7
+#include <inttypes.h>
 
-/*模拟IIC端口输出输入定义*/
-#define SCL_H         GPIOB->BSRR = GPIO_Pin_6
-#define SCL_L         GPIOB->BRR  = GPIO_Pin_6 
-   
-#define SDA_H         GPIOB->BSRR = GPIO_Pin_7
-#define SDA_L         GPIOB->BRR  = GPIO_Pin_7
+#define I2C_WR	0		/* 写控制bit */
+#define I2C_RD	1		/* 读控制bit */
 
-#define SCL_read      GPIOB->IDR  & GPIO_Pin_6
-#define SDA_read      GPIOB->IDR  & GPIO_Pin_7
+void i2c_Start(void);
+void i2c_Stop(void);
+void i2c_SendByte(uint8_t _ucByte);
+uint8_t i2c_ReadByte(uint8_t ack);
+uint8_t i2c_WaitAck(void);
+void i2c_Ack(void);
+void i2c_NAck(void);
+uint8_t i2c_CheckDevice(uint8_t _Address);
+void i2c_GPIO_Config(void);
 
-void delay5ms(void);
-void I2C_NoAck(void);
-void I2C_Ack(void);
-void I2C_Stop(void);
-bool I2C_Start(void);
- u8 I2C_RadeByte(void);
-void I2C_NoAck(void);
-
-#endif /*_iic_h_*/
-
-
+#endif
